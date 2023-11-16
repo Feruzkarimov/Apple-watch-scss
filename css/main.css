@@ -476,4 +476,66 @@ a {
   line-height: 22.5px;
 }
 
-/* HEADER END *//*# sourceMappingURL=main.css.map */
+/* HEADER END */
+/* MAIN START */
+.site-main {
+  width: 100%;
+}
+
+/* HERO START */
+.site-hero {
+  width: 100%;
+  padding-top: 140px;
+  padding-bottom: 183px;
+  background-image: url(../img/watches.png);
+  background-repeat: no-repeat;
+  background-size: 587px;
+  background-position: calc(50% + 654px) bottom;
+}
+.site-hero__wrapper {
+  width: 100%;
+  max-width: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+}
+.site-hero__title {
+  margin-top: 0px;
+  margin-bottom: 0;
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.site-hero-desc {
+  padding-left: 40px;
+  border-left: solid 3px #888;
+  color: #777;
+  line-height: 24px;
+}
+.site-hero__btn {
+  width: 260px;
+  padding: 12px;
+  background-color: #ea625c;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.site-hero__btn:hover {
+  color: #ea625c;
+  background-color: transparent;
+  border: 3px solid #ea625c;
+}
+.site-hero__line {
+  margin: 0;
+}
+
+/* HERO END */
+/* MAIN END *//*# sourceMappingURL=main.css.map */

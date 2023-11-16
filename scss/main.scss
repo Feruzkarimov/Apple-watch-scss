@@ -31,7 +31,7 @@
   font-size: 15px;
   line-height: 22.5px;
   border-bottom: 1px solid transparent;
-
+  
   &:hover{
     padding-bottom: 6px;
     color: $btnPrimary;
@@ -61,3 +61,76 @@
 }
 
 /* HEADER END */
+
+/* MAIN START */
+
+.site-main{
+  width: 100%;
+}
+
+/* HERO START */
+
+.site-hero{
+  width: 100%;
+  padding-top: 140px;
+  padding-bottom: 183px;
+  background-image: url(../img/watches.png);
+  background-repeat: no-repeat;
+  background-size: 587px;
+  background-position: calc(50% + 654px) bottom;
+  
+  &__wrapper{
+    width: 100%;
+    max-width: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+  }
+  
+  &__title {
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+  &-desc{
+    padding-left: 40px;
+    border-left:solid 3px #888;
+    color: $colorSecondary;
+    line-height: 24px;
+  }
+  
+  &__btn{
+    width: 260px;
+    padding: 12px;
+    background-color: $btnPrimary;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent;
+    
+    color: $backgroundPrimary;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px; 
+    text-transform: uppercase;
+
+    &:hover{
+      color: $btnPrimary;
+      background-color: transparent;
+      border: 3px solid $btnPrimary;
+    }
+  }
+
+  &__line{
+    margin: 0;
+  }
+}
+
+/* HERO END */
+
+/* MAIN END */
