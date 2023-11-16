@@ -659,4 +659,64 @@ a {
 }
 
 /* INFO END */
+/* FOOTER START */
+.site-footer {
+  width: 100%;
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-image: url(../img/runners.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.site-footer__wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.site-footer__wrapper-box {
+  width: 100%;
+  max-width: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+.site-footer__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.site-footer__desc {
+  padding-left: 40px;
+  color: #fff;
+  line-height: 24px;
+  border-left: 3px solid #fff;
+}
+.site-footer__button {
+  width: 260px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ea625c;
+  border: 3px solid transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.site-footer__button:hover {
+  color: #ea625c;
+  background-color: transparent;
+  border: 3px solid #ea625c;
+  background-color: #fff;
+}
+
+/* FOOTER END */
 /* MAIN END *//*# sourceMappingURL=main.css.map */
