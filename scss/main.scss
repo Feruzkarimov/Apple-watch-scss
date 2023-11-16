@@ -110,7 +110,7 @@
     background-color: $btnPrimary;
     justify-content: center;
     align-items: center;
-    border: 3px solid transparent;
+    @include btn-border;
     
     color: $backgroundPrimary;
     text-align: center;
@@ -120,9 +120,7 @@
     text-transform: uppercase;
     
     &:hover{
-      color: $btnPrimary;
-      background-color: transparent;
-      border: 3px solid $btnPrimary;
+      @include btn-hover;
     }
   }
   
@@ -208,5 +206,70 @@
 }
 
 /* FEATURES END */
+
+/* INFO START */
+
+.site-info{
+  width: 100%;
+  background-color: #FAF9F6;
+  
+  &__wrapper{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+  }
+}
+
+.site-info__start{
+  width: 100%;
+  max-width: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 30px;
+  
+  &-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+  &-desc{
+    padding-left: 40px;
+    color: $colorSecondary;
+    line-height: 24px;
+    border-left: solid 3px #888;
+  }
+  
+  &-btn{
+    width: 260px;
+    padding: 12px;
+    background-color: $btnPrimary;
+    justify-content: center;
+    align-items: center;
+    @include btn-border;
+    
+    color: $backgroundPrimary;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+    
+    &:hover{
+      @include btn-hover;
+    }
+    
+  }
+}
+
+/* INFO END */
 
 /* MAIN END */
