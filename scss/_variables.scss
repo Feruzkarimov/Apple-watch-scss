@@ -1,5 +1,15 @@
 // COLORS
-$color-primary: orangered;
+$colorPrimary: #333;
+$colorSecondary: #777;
+
+ /* backgrounds */
+ $backgroundPrimary: #fff;
+
+ /* btn colors */
+ $btnPrimary: #ea625c;
+ $btnHover: #fff;
 
 // FONTS
-$font-stack: "Arial", sans-serif;
+$fontStack:  "Roboto", Arial, sans-serif;
+$fontWeight: 400;
+$fontSize: 16px;
