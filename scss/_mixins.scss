@@ -5,6 +5,16 @@
 }
 
 @mixin link-unstyled{
-    text-decoration: none;
-    background-color: transparent;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+@mixin btn-border{
+  border: 3px solid transparent;
+}
+
+@mixin btn-hover{
+  color: $btnPrimary;
+  background-color: transparent;
+  border: 3px solid $btnPrimary;
 }
