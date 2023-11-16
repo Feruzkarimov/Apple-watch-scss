@@ -4,3 +4,60 @@
 @import "fonts";
 @import "general";
 @import "blocks/blocks";
+
+/* HEADER START */
+
+.site-header{
+  padding: 30px 0px;
+  
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.site-header__nav-list{
+  display: flex;
+}
+
+.site-header__nav-item:not(:last-child){
+  margin-right: 30px;
+}
+
+.site-header__nav-link{
+  color: $colorPrimary;
+  text-align: center;
+  font-size: 15px;
+  line-height: 22.5px;
+  border-bottom: 1px solid transparent;
+
+  &:hover{
+    padding-bottom: 6px;
+    color: $btnPrimary;
+    border-bottom: 1px solid $btnPrimary;
+  }
+}
+
+.site-header__nav-btn{
+  margin-left: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid $colorPrimary;
+  
+  color: #666;
+  font-size: 15px;
+  line-height: 22.5px;
+  
+  &:hover{
+    margin-left: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid $btnPrimary;
+    
+    color: $btnPrimary;
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+  
+}
+
+/* HEADER END */
