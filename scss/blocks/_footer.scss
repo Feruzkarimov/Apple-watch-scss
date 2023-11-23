@@ -1,0 +1,72 @@
+/* FOOTER START */
+
+.site-footer{
+  width: 100%;
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-image: url(../img/runners.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  &__wrapper{
+    display: flex;
+    justify-content:flex-end;
+    
+    &-box{
+      width: 100%;
+      max-width: 490px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 30px;
+    }
+    
+  }
+  
+  
+  &__title{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $backgroundPrimary;
+    font-size: 50px;
+    font-weight: 700;
+    line-height:  60px;
+  }
+  
+  &__desc{
+    padding-left: 40px;
+    color: $backgroundPrimary;
+    line-height: 24px;
+    border-left: 3px solid $backgroundPrimary;
+  }
+  
+  &__button{
+    width: 260px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: $btnPrimary;
+    @include btn-border;
+    
+    color: $backgroundPrimary;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+    
+    &:hover{
+      @include btn-hover;
+      background-color: $backgroundPrimary;
+    }
+  }
+}
+
+
+
+/* FOOTER END */
+
+/* MAIN END */

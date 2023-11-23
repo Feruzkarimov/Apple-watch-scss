@@ -39,15 +39,6 @@ main {
   flex-grow: 1;
 }
 
-.container {
-  width: 100%;
-  max-width: 1000px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 ol,
 ul  {
  @include list-unstyled;
